@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,44 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+.foot-social {
+  width: 40%;
+  max-width: 100%;
+  float: left;
+  margin: 0 30%;
+  z-index: 1;
 }
+
+.foot-social, .heading h1, .hm-feat-boxes, .quickboxes, .test-box-content, .upevents a {
+  position: relative;
+}
+
+.foot-social ul {
+  width: 100%;
+  float: left;
+  padding: 10px 5%;
+  text-align: center;
+}
+
+.footer .first-footer {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 30px 0 20px;
+  border-bottom: 1px solid #065e3e;
+}
+
+/* -webkit-text-size-adjust: 100%;
+color: #000;
+font-size: 15px;
+line-height: 22px;
+font-family: lato,sans-serif;
+margin: 0;
+box-sizing: border-box;
+width: 100%;
+float: left;
+text-align: center;
+padding: 30px 0 20px;
+border-bottom: 1px solid #065e3e; */
