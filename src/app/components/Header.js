@@ -1,8 +1,8 @@
 
 function Header() {
     return (
-        <header class="text-gray-600 body-font">
-            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <header className="text-gray-600 body-font">
+            <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
                     <a class="mr-5 hover:text-gray-900">First Link</a>
                     <a class="mr-5 hover:text-gray-900">Second Link</a>
