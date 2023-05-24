@@ -37,3 +37,18 @@ float: left;
 text-align: center;
 padding: 30px 0 20px;
 border-bottom: 1px solid #065e3e; */
+
+.bottom {
+    width: 100%;
+    float: left;
+    padding: 5px 30px;
+    background: #db9c27;
+    text-align: center;
+    border-top: 1px solid #db9c27;
+}
+
+@media screen and (max-width: 920px){
+.quick-links {
+    width: auto;
+}
+}
